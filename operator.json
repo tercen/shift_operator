@@ -1,0 +1,15 @@
+{
+  "name": "shift",
+  "description": "shift the data by a constant",
+  "tags": ["simple statistics"],
+  "authors": ["tercen"],
+  "urls": ["https://github.com/tercen/shift_operator"],
+  "properties": [
+   {
+    "kind": "DoubleProperty",
+    "name": "constant",
+    "defaultValue": 0,
+    "description": "shift value"
+  }
+]
+}
