@@ -1,6 +1,6 @@
 {
-  "name": "shift",
-  "description": "shift the data by a constant",
+  "name": "Shift",
+  "description": "Adds (or subtracts) a constant number from the selected range of data.",
   "tags": ["simple statistics"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/shift_operator"],
