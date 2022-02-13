@@ -1,0 +1,20 @@
+{
+  "kind": "OperatorUnitTest",
+  "name": "Sample_operator",
+  "namespace": "ds0",
+   "propertyValues": [
+    {
+    "kind": "PropertyValue",
+    "name": "constant",
+    "value": "10"
+    }
+  ],
+  "inputDataUri": "c03_simple_exp.tsv",
+  "outputDataUri": ["table1.csv","table2.csv"],
+  "columns": [],
+  "rows": [],
+  "colors":[] ,
+  "labels": [],
+  "yAxis": "Measurement",
+  "xAxis": ""
+}
