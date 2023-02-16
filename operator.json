@@ -1,7 +1,7 @@
 {
   "name": "Shift",
   "description": "Adds (or subtracts) a constant number from the selected range of data.",
-  "tags": ["simple statistics"],
+  "tags": ["basic operations"],
   "authors": ["tercen"],
   "urls": ["https://github.com/tercen/shift_operator"],
   "properties": [
@@ -9,7 +9,7 @@
     "kind": "DoubleProperty",
     "name": "constant",
     "defaultValue": 0,
-    "description": "shift value"
+    "description": "Shift value"
   }
 ]
 }
