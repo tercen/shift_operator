@@ -10,7 +10,7 @@ ctx <- tercenCtx()
 constant <- ctx$op.value('constant', as.double, 0)
 
 df_out <- ctx %>% 
-  select(.x, .y, .ci, .ri) %>% 
+  select(.y, .ci, .ri) %>% 
   lazy_dt() %>%
   group_by(.ci, .ri)
 
