@@ -31,7 +31,7 @@
             "name": "Row",
             "type": "",
             "description": "Optional row factor",
-            "ontologyMapping": "row",
+            "ontologyMapping": "variable",
             "crosstabMapping": "row",
             "cardinality": "0..n",
             "factors": []
@@ -41,7 +41,7 @@
             "name": "Column",
             "type": "",
             "description": "Optional column factor",
-            "ontologyMapping": "column",
+            "ontologyMapping": "observation",
             "crosstabMapping": "column",
             "cardinality": "0..n",
             "factors": []
@@ -75,13 +75,23 @@
             "joinType": "left",
             "leftPair": {
               "kind": "ColumnPair",
-              "lColumns": ["Row", "Column"],
-              "rColumns": ["Row", "Column"]
+              "lColumns": [
+                "Row",
+                "Column"
+              ],
+              "rColumns": [
+                "Row",
+                "Column"
+              ]
             },
             "rightRelation": {
               "kind": "TableRelation",
               "attributes": [
-                {"kind": "Attribute", "name": "value", "type": "double"}
+                {
+                  "kind": "Attribute",
+                  "name": "value",
+                  "type": "double"
+                }
               ]
             }
           }
