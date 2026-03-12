@@ -54,7 +54,7 @@
               {
                 "kind": "MetaFactor",
                 "name": "Measurement",
-                "type": "numeric",
+                "type": "double",
                 "description": "Values to shift",
                 "ontologyMapping": "measurement",
                 "crosstabMapping": "y",
